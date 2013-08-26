@@ -1,0 +1,8 @@
+LABEL SLITAZ
+MENU LABEL ^Slitaz 4.0
+KERNEL er/plugins/slitaz/bzimage
+INITRD er/plugins/slitaz/rootfs.gz
+APPEND rw root=/dev/null vga=normal autologin
+TEXT HELP
+                 A collection of Free and Non Free software.
+ENDTEXT
